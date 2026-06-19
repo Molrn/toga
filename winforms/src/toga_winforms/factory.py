@@ -17,6 +17,7 @@ from .widgets.canvas import Canvas
 from .widgets.dateinput import DateInput
 from .widgets.detailedlist import DetailedList
 from .widgets.divider import Divider
+from .widgets.frame import Frame
 from .widgets.imageview import ImageView
 from .widgets.label import Label
 from .widgets.mapview import MapView
@@ -70,6 +71,7 @@ __all__ = [
     "DateInput",
     "DetailedList",
     "Divider",
+    "Frame",
     "ImageView",
     "Label",
     "MapView",
