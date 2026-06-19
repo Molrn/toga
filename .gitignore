@@ -52,3 +52,6 @@ mprofile_*.dat
 .specify/integrations
 .specify/workflows
 .specify/workflow.yml
+
+# Sandbox
+core/src/sandbox.py
