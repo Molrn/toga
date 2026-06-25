@@ -27,17 +27,17 @@ def build(app):
                 gap=10,
             ),
         ],
-        background_color="red",
-        margin=(0, 10),
+        margin=(3, 10, 0),
         align_items="center",
+        gap=2,
         flex=1,
     )
     frame = toga.Frame(
-        title="Data path",
+        title="Data folder",
         content=data_frame_content,
         flex=1,
+        height=95,
         font_weight="bold",
-        font_size=9,
     )
 
     def increase_height(widget):
