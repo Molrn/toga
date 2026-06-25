@@ -7,7 +7,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-dynamic = ["version", "dependencies"]
+dynamic = ["dependencies"]
 name = "toga"
 description = "A Python native, OS native GUI toolkit."
 readme = "README.md"
@@ -16,6 +16,7 @@ license = "BSD-3-Clause"
 license-files = [
     "LICENSE",
 ]
+version = "0.5.4+test1"
 authors = [
     {name="Russell Keith-Magee", email="russell@keith-magee.com"},
 ]
