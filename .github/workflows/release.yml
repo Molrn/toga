@@ -6,7 +6,7 @@ on:
       - 'v*'
 
 env:
-  SETUPTOOLS_SCM_PRETEND_VERSION: ${{ github.ref_name[1:] }}
+  SETUPTOOLS_SCM_PRETEND_VERSION: ${{ replaceFirst(github.ref_name, 'v', '') }}
 
 jobs:
   ci:
