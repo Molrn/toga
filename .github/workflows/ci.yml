@@ -18,7 +18,7 @@ on:
 env:
   min_python_version: "3.10"
   FORCE_COLOR: "1"
-  SETUPTOOLS_SCM_PRETEND_VERSION: ${{ GITHUB_REF_NAME.substring(1) }}
+  SETUPTOOLS_SCM_PRETEND_VERSION: ${{ github.ref_name.substring(1) }}
 
 defaults:
   run:
